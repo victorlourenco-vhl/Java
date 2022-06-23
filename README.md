@@ -14,3 +14,12 @@
   - %d = inteiro
   - %s = texto
   - \n | %n = quebra de linha
+
+## Principai funções matemáticas
+
+- A = **Math.sqrt(x);**
+  - variável A recebe raiz quadrada de x
+- A = **Math.pow(x, y);** 
+  - Variável A recebe o resultado de x elevado a y
+- A = **Math.abs(x);** 
+  - Variável A recebe o valor absoluto de x (valor sem o negativo)
