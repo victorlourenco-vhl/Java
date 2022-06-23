@@ -23,3 +23,6 @@
   - Variável A recebe o resultado de x elevado a y
 - A = **Math.abs(x);** 
   - Variável A recebe o valor absoluto de x (valor sem o negativo)
+
+## Expressão condicional ternária
+- (condição)? valor_se_verdadeiro : valor_se_falso
