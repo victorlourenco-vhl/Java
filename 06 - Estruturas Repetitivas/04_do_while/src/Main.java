@@ -22,7 +22,7 @@ public class Main {
 		
 		// No DO WHILE o bloco de comando vai ser executado pelo menos uma vez
 		
-		char opcaoB = ' ';
+		char opcaoB; // Não precisa iniciar a variável com um valor
 		
 		do {
 			System.out.println("DO WHILE");
