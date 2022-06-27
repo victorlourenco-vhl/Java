@@ -87,3 +87,9 @@
 
 ## Expressão condicional ternária
 - (condição)? valor_se_verdadeiro : valor_se_falso
+
+## Operadores Bitwise
+- **&** - Operação **E** bit a bit
+- **|** - Operação **OU** bit a bit
+- **^** - Operação **OU-Exclusivo** bit a bit
+
