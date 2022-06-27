@@ -55,6 +55,12 @@
 ## Tipos Primitivos
 ![image](https://user-images.githubusercontent.com/78964459/174917143-732f0782-9758-4764-8941-f5b2adf42596.png)
 
+- Restrições para nomes de variáveis
+  - Não pode começar com dígito: usar letra ou _
+  - Não usar acentos ou til
+  - Não pode ter espaço em branco
+  - **Obs:** Usar nomes que tenham significado
+
 - Marcadores para utilizar com o **printf**
   - %f = ponto flutuante
   - %d = inteiro
