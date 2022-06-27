@@ -50,7 +50,16 @@
     - meu_pacote
 - Todas as letras maiúsculas:
     - CONSTANTES
-  
+
+## Outras Convenções
+- **Camel Case:** lastName
+  - pacotes
+  - atributos
+  - métodos
+  - variáveis e parâmetros
+
+- **Pascal Case:** ProductsService
+  - classes
 
 ## Tipos Primitivos
 ![image](https://user-images.githubusercontent.com/78964459/174917143-732f0782-9758-4764-8941-f5b2adf42596.png)
@@ -78,3 +87,9 @@
 
 ## Expressão condicional ternária
 - (condição)? valor_se_verdadeiro : valor_se_falso
+
+## Operadores Bitwise
+- **&** - Operação **E** bit a bit
+- **|** - Operação **OU** bit a bit
+- **^** - Operação **OU-Exclusivo** bit a bit
+
