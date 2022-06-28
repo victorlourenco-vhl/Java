@@ -22,8 +22,6 @@ public class Main {
 		else {
 			System.out.println("O 6° bit é 0");
 		}
-		
-		System.out.println(n & mask);
 
 		sc.close();
 	}
