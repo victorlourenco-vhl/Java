@@ -112,3 +112,6 @@
   - Utilitários: Calculadora, Compactador
   - Outros (views, repositórios, gerenciadores, etc.)
 
+### Classes | Objetos | Atributos
+- Clase: é a definição do tipo
+- Objetos: São instâncias da classe
