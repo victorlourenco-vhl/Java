@@ -112,6 +112,13 @@
   - Utilitários: Calculadora, Compactador
   - Outros (views, repositórios, gerenciadores, etc.)
 
+- **Obs:** Toda classe Java é uma subclasse da classe Object
+
+- Object possui os seguintes métodos: 
+  - getClass - retorna o tipo do objeto
+  - equals - compara se um objeto é igual ao outro
+  - toString - converte o objeto para string
+
 ### Classes | Objetos | Atributos
 - Clase: é a definição do tipo
 - Objetos: São instâncias da classe
