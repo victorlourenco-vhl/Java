@@ -30,7 +30,7 @@ public class Program {
 		
 		// Formula para calcular a área do triângulo
 		double areaX = x.area();
-		double areaY = y.area();
+		double areaY = y.area();  
 		
 		System.out.printf("Area triangle X: %.3f\n", areaX);
 		System.out.printf("Area triangle Y: %.3f\n", areaY);
