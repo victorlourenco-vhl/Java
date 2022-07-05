@@ -113,6 +113,8 @@
   - Outros (views, repositórios, gerenciadores, etc.)
 
 - **Obs:** Toda classe Java é uma subclasse da classe Object
+- **Obs:** Não é possível chamar um método que não seja estático dento de um método que já é estático
+- Método estático: Não precisa de instância para ser utilizado
 
 - Object possui os seguintes métodos: 
   - getClass - retorna o tipo do objeto
