@@ -126,5 +126,7 @@
 - Objetos: São instâncias da classe
 
 ## Construtor
-- É executado no momento da instanciação do objeto
-
+- É executado no momento da instanciação do objeto 
+- Casos de uso:
+  - Iniciar valores dos atributos
+  - Permitir ou obrigar que o objeto receba dados / dependências no memento da instanciação (injeção de dependência)
