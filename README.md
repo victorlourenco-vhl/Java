@@ -124,3 +124,7 @@
 ### Classes | Objetos | Atributos
 - Clase: é a definição do tipo
 - Objetos: São instâncias da classe
+
+## Construtor
+- É executado no momento da instanciação do objeto
+
