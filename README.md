@@ -131,3 +131,12 @@
   - Iniciar valores dos atributos
   - Permitir ou obrigar que o objeto receba dados / dependências no memento da instanciação (injeção de dependência)
 - **Obs:** É possível iniciar mais de um construtor na mesma classe (sobrecarga)
+
+## This
+- Serve para se referenciar a um atibuto do objeto
+
+
+
+
+
+
