@@ -139,7 +139,19 @@
 - É um recurso que uma classe possui de oferecer mais de uma operação/método com o mesmo nome, porém com diferentes listas de parâmetros
 
 ## Encapsulamento
--
+- Serve para controlar o acesso aos atributos e métodos de uma classe, expondo apenal operaçãoes segura e que mantenham o objeto em um estado consistente
+- **Obs:** um objeto não deve expor nenhum atributo (modificador de acesso private). Deve utilizar get e set
+  - Referência: https://en.wikipedia.org/wiki/JavaBeans
+
+## Modificadores de acesso
+- Private
+  - O membro só pode ser acessado na **própria classe**
+- (nada)
+  - O membro só pode ser acessado nas classes do **mesmo pacote**
+- Protected
+  - O membro só óde ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**
+- public: O membro é acessado por todas classes(ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+  
 
 
 
