@@ -152,6 +152,26 @@
   - O membro só óde ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**
 - public: O membro é acessado por todas classes(ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
   
+## Memória
+
+### Classes são tipos referência
+- Variáveis cujo tipo são classes não devem ser entendidas como caixa, mas sim "tentáculos"(ponteiros) para caixas
+- **Stack** - Área de memória que aloca as variáveis declaradas
+- **Heap** - Área da memória em que são alocados os objetos em tempo de execução (alocação dinâmica de memória)
+- Se **p2 = p1** e ambas são variáveis do tipo classe, as duas vão apontar para o mesmo endereço de memória.
+
+### Tipos Primitivos são tipos valor 
+- Em Java, tipos primitivos são tipos valor. Tipos valor são caixas e não ponteiros
+- Se **X = Y** então X recebe uma cópia do valor de Y
+
+### Valores padrão
+- quando alocar (new) qualquer tipo estruturado (classe ou array), são atribuídos valores pad~roa oas seus elementos
+  - números: 0
+  - boolean: false
+  - char: caractere código -
+  - objeto: null
+
+
 
 
 
