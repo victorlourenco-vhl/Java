@@ -171,7 +171,14 @@
   - char: caractere código -
   - objeto: null
 
+### Garbage collector
+- É um processo que automatiza o gerenciamnto de memória de um programa em execução
+- O garbage collector monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados. 
 
+
+### Tópicos importantes sobre alocação de memória
+- Objetos alocados dinamicamente, quando não possuem mais referências para eles, serão desalocados pelo garbage collector
+- Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução
 
 
 
