@@ -135,6 +135,11 @@
 ## This
 - Serve para se referenciar a um atibuto do objeto
 
+## Sobrecarga
+- É um recurso que uma classe possui de oferecer mais de uma operação/método com o mesmo nome, porém com diferentes listas de parâmetros
+
+## Encapsulamento
+-
 
 
 
