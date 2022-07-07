@@ -12,23 +12,24 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double initialDeposit;
+		BankAccount account;
 		
 		System.out.print("Enter account number: ");
 		int accountNumber = sc.nextInt();
 		System.out.print("Enter account holder: ");
-		String nameHolder = sc.next();
+		sc.nextLine(); // Serve para consumir a quebra de linha
+		String nameHolder = sc.nextLine();
 		System.out.print("Is there a initial deposit (y/n)? ");
 		char option = sc.next().charAt(0);
 		
 		if(option == 'y') {
-			System.out.print("Enter initial de deposit value: ");
-			initialDeposit = sc.nextDouble();
+			System.out.print("Enter initial deposit value: ");
+			double initialDeposit = sc.nextDouble();
+			account = new BankAccount(accountNumber, nameHolder, initialDeposit);	
 		}else {
-			initialDeposit = 0.0;
+			account = new BankAccount(accountNumber, nameHolder);
 		}
 		
-		BankAccount account = new BankAccount(accountNumber, nameHolder, initialDeposit);
 		
 		System.out.println("\nAccount data: ");
 		System.out.println(account);

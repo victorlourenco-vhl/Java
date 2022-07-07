@@ -17,8 +17,10 @@ public class BankAccount {
 	public BankAccount(int numberAccount, String nameAccountHolder, double initialDeposit){
 		this.numberAccount = numberAccount;
 		this.nameAccountHolder = nameAccountHolder;
-		this.accountBalance = initialDeposit;
+		this.accountDeposit(initialDeposit);
 	}
+	
+	// Getters e Setters
 	
 	public int getNumberAccount() {
 		return this.numberAccount;
@@ -32,7 +34,8 @@ public class BankAccount {
 		this.nameAccountHolder = name;
 	}
 	
-	public double accountBance() {
+	
+	public double getAccountBalance() {
 		return this.accountBalance;
 	}
 	
@@ -47,6 +50,6 @@ public class BankAccount {
 	public String toString() {
 		return "Account " + this.numberAccount
 			 + ", Holder: " + this.nameAccountHolder
-			 + String.format(", Balance: $ %.2f", this.accountBalance);
+			 + String.format(", Balance: $ %.2f", this.getAccountBalance());
 	}
 }
