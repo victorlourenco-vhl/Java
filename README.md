@@ -165,7 +165,7 @@
 - Se **X = Y** então X recebe uma cópia do valor de Y
 
 ### Valores padrão
-- quando alocar (new) qualquer tipo estruturado (classe ou array), são atribuídos valores pad~roa oas seus elementos
+- quando alocar (new) qualquer tipo estruturado (classe ou array), são atribuídos valores padão aos seus elementos
   - números: 0
   - boolean: false
   - char: caractere código -
@@ -180,7 +180,18 @@
 - Objetos alocados dinamicamente, quando não possuem mais referências para eles, serão desalocados pelo garbage collector
 - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução
 
-
+### Vetores
+- Em programação, "vetor" é o nome dado a arranjos unidimensionais
+- Arranjo (array) é uma estrutura de dados
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Alocada de uma vez só, em um bloco contínuo de memória
+- Vantagens
+  - Acesso imediato aos elementos pela posição
+- Desvantagens
+  - Tamanho fixo
+  - Dificuldade para se realizar inserções e deleções
+  
 
 
 
