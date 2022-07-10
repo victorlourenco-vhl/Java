@@ -13,6 +13,9 @@ public class Person {
 	public double getAltura() {
 		return this.altura;
 	}
+	public double getGenero() {
+		return this.genero;
+	}
 	
 
 }
