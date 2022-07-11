@@ -191,6 +191,15 @@
 - Desvantagens
   - Tamanho fixo
   - Dificuldade para se realizar inserções e deleções
+
+## Boxing, unboxing e wrapper classes
+- **Boxing:** Conversão de um objeto tipo valor para  um objeto tipo referência compatível (Encaixotamento da variável)
+- **Unboxing:** É o preocesso de conversão de um objeto tipo referência para um objeto tipo valor compatível
+- **Wrapper classes**
+  - São classes equivalentes aos tipos primitivos
+  - Boxing e unboxing é natural na linguagem
+  - Uso comum: campos de entidades em sistemas de informação (**IMPORTANTE**)
+    - Tipos refêrencia (classes) aceitam valor null e usufruem dos recursos OO
   
 
 
