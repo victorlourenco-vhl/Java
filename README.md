@@ -197,9 +197,13 @@
 - **Unboxing:** É o preocesso de conversão de um objeto tipo referência para um objeto tipo valor compatível
 - **Wrapper classes**
   - São classes equivalentes aos tipos primitivos
-  - Boxing e unboxing é natural na linguagem
+  - Boxing e unboxing é natural na linguagem (não precisa de casting)
   - Uso comum: campos de entidades em sistemas de informação (**IMPORTANTE**)
     - Tipos refêrencia (classes) aceitam valor null e usufruem dos recursos OO
+
+## for each
+- Sintaxe opcional e simplificada para percorrer coleções
+- for (**TIPO** **APELIDO** : **COLEÇÃO**){ **COMANDO**}
   
 
 
