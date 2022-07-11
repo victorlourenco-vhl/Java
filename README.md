@@ -204,6 +204,37 @@
 ## for each
 - Sintaxe opcional e simplificada para percorrer coleções
 - for (**TIPO** **APELIDO** : **COLEÇÃO**){ **COMANDO**}
+
+## Listas
+- Lista é uma estrutura de dados: 
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Inicia vazia, e seus elementos são alocados so demanda
+  - Cada elemento ocupa um "nó" (ou nodo) da lista
+  - **Obs:** cada nodo tem um ponteiro para o próximo nodo
+  - **Obs: 2** A lista só aceita declaração utilizando wrapper class
+  
+-  Tipo (interface): List
+  - Classe que implementam: ArrayList, LinkedList, etc
+  
+- Vantagens
+  - Tamanho variável
+  - Facilidade para se realizar inserções e deleções
+  
+- Desvantagens
+  - Acesso sequencial aos elementos* (depende de como a lista é implementada)
+  
+- **Principais parâmetros**
+  - Tamanho da lista: size()
+  - Inserir elemento na lista: add(obj), add(int(posicao), obj);
+  - Remover elementos da lista: remove(obj), remove(int(posicao)), removeIf(Predicate)
+  - Encontrar posição do elemento: indexOf(obj), lastIndexOf(obj)
+  
+
+  
+  
+  
+  
   
 
 
