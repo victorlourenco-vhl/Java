@@ -229,6 +229,14 @@
   - Inserir elemento na lista: add(obj), add(int(posicao), obj);
   - Remover elementos da lista: remove(obj), remove(int(posicao)), removeIf(Predicate)
   - Encontrar posição do elemento: indexOf(obj), lastIndexOf(obj)
+  - Filtrar lista com base em predicado
+  ```
+    List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+  ```
+  - Encontrar primeira ocorrência com base em predicado
+  ```
+    String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
+  ```
   
 
   
