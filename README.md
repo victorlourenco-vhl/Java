@@ -237,7 +237,20 @@
   ```
     String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
   ```
-  
+
+## Matrizes
+- Em programaçã, "matriz" é o nome dado a arranjos bidimensionais
+  - **Obs:** "vetor de vetores"
+- Arranjo (array) é uma estrutura de dados
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de poisições)
+  - Alocada de uma vez só, em um bloco contínuo de memória
+- Vantagens
+  - Acesso imediato aos elementos pela sua posição
+- Desvantagens
+  - Tamanho fixo
+  - Dificuldade para se realizar inserções e deleções
+ 
 
   
   
