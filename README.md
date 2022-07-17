@@ -258,7 +258,16 @@
 - É um tipo especial que serve para especificar de forma literal um conjunto de constantes que estão relacionadas
 - Palavra chave em Java: enum
 - Vatagem: melhor semântica, código mais legível e auxiliado pelo compilador
-  
+
+## Composição
+- É um tipo de associação que permite que um objeto contenha outro
+- Relação "tem-um" ou "tem-vários"
+- Vantagens
+  - Organização: divisão de responsabilidades
+  - Coesão
+  - Flexibilidade
+  - Reuso
+- **Obs:** O símbolo UML para composição (todo-parte) é o diamante preto
 
   
   
