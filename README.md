@@ -151,6 +151,9 @@
 - Protected
   - O membro só óde ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**
 - public: O membro é acessado por todas classes(ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+
+![image](https://user-images.githubusercontent.com/78964459/179416683-ea6db1b8-b177-4b90-b346-e5f50b29424e.png)
+
   
 ## Memória
 
@@ -252,11 +255,11 @@
   - Dificuldade para se realizar inserções e deleções
  
 ## Enumerações
-- É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+- É um tipo especial que serve para especificar de forma literal um conjunto de constantes que estão relacionadas
 - Palavra chave em Java: enum
 - Vatagem: melhor semântica, código mais legível e auxiliado pelo compilador
   
-  
+
   
   
   
