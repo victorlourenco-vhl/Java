@@ -269,7 +269,11 @@
   - Reuso
 - **Obs:** O símbolo UML para composição (todo-parte) é o diamante preto
 
-  
+## Herança
+- É um tipo de associação que permite uma classe herdar todos os dados e comportamentos de outra classe.
+- Vantagens:
+  - Reuso 
+  - Polimorfismo
   
   
 
