@@ -274,7 +274,17 @@
 - Vantagens:
   - Reuso 
   - Polimorfismo
-  
+- Sintaxe:
+  - class A extends B
+
+### Upcasting 
+- Casting da subclasse para superclasse
+- Uso comum: polimorfismo
+
+### Downcasting
+- Casting da superclasse para subclasse
+- Palavra instanceof
+- Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)
   
 
 
