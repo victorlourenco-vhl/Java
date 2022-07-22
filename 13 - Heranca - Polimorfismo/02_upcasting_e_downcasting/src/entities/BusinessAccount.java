@@ -1,7 +1,6 @@
 package entities;
 
-public class BusinessAccount extends Account {
-	
+public class BusinessAccount extends Account{
 	private Double loanLimit;
 	
 	public BusinessAccount() {
@@ -26,5 +25,4 @@ public class BusinessAccount extends Account {
 			deposit(amount);
 		}
 	}
-	
 }
