@@ -94,6 +94,7 @@
 - **^** - Operação **OU-Exclusivo** bit a bit
 
 ## Classe
+- É uma estrutura que abstrai um conjunto de objetos com características similares. Além disso, uma classe define o comportamento de seus objetos através de métodos e os estados possíveis através de atributos
 - É um tipo estruturado que pode conter (membros):
   - Atributos (dados/campos)
   - Métodos (funções/operações)
