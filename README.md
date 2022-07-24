@@ -303,7 +303,18 @@
     - Exemplo: String
 
 ## Polismorfismo
-- É um princípio no qual duas ou mais classes derivadas pode invocar um método da superclasse que tenham a mesma assinatura mas comportamentos distintos, especializados para cada classe derivada. Desse modo, a sobrescrita ou sobreposição é um conceioto de **polimorfismo**
+- **Definição formal**: Em Programação Orientada a Objetos, polimorfismo é recurso que
+permite que variáveis de um mesmo tipo mais genérico possam
+apontar para objetos de tipos específicos diferentes, tendo assim
+comportamentos diferentes conforme cada tipo específico.
+
+- **Importante**
+  - A associação do tipo específico com o tipo genérico é feita em tempo de
+execução (upcasting)
+  - O compilador não sabe para qual tipo específico a chamada do método
+Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account)
+
+- É um princípio no qual duas ou mais classes derivadas podem invocar um método da superclasse que tenham a mesma assinatura mas comportamentos distintos, especializados para cada classe derivada. Desse modo, a sobrescrita ou sobreposição é um conceioto de **polimorfismo**
 
 
 
