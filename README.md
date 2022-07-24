@@ -301,7 +301,9 @@
     - O **final** costuma ser aplicado em métodos sobrepostos, pois múltiplas sobreposições podem ser uma porta de entrada para inconsistências
   - Performace: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução
     - Exemplo: String
-  
+
+## Polismorfismo
+- É um princípio no qual duas ou mais classes derivadas pode invocar um método da superclasse que tenham a mesma assinatura mas comportamentos distintos, especializados para cada classe derivada. Desse modo, a sobrescrita ou sobreposição é um conceioto de **polimorfismo**
 
 
 
