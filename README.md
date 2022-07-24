@@ -293,3 +293,15 @@
   - Facilita a leitura e compreensão do código
   - Serve para avisar o compilador (boa prática)
 
+## final
+- **Classse**: evita que a classe seja herdada
+- **Método**: evita que o método seja sobreposto
+- Por quê usar ?
+  - Segurança: Dendendo das regaras do negócio, às vezes é desejável garantir que uma classe não seja herdada
+    - O **final** costuma ser aplicado em métodos sobrepostos, pois múltiplas sobreposições podem ser uma porta de entrada para inconsistências
+  - Performace: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução
+    - Exemplo: String
+  
+
+
+
