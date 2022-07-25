@@ -322,4 +322,13 @@ Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account)
 - É uma forma de garantir herança total: somente subclasses não abstratas pode ser instanciadas, mas nunca a superclasse abstrata
 - **Obs:** A notação de uma classe abstrata em UML é o nome da classe em itálico
 
+## Métodos abstratos
+- São métodos que não possuem implementação
+- Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação
+- Se uma classe possuir pelo meno um método abstrat, então esta classe também é abstrata
+- Notação UML: itálico
+
+
+
+
 
