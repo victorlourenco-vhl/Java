@@ -317,4 +317,9 @@ Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account)
 - É um princípio no qual duas ou mais classes derivadas podem invocar um método da superclasse que tenham a mesma assinatura mas comportamentos distintos, especializados para cada classe derivada. Desse modo, a sobrescrita ou sobreposição é um conceioto de **polimorfismo**
 
 
+## Classes abstratas
+- São classes que não podem ser instanciadas
+- É uma forma de garantir herança total: somente subclasses não abstratas pode ser instanciadas, mas nunca a superclasse abstrata
+- **Obs:** A notação de uma classe abstrata em UML é o nome da classe em itálico
+
 
