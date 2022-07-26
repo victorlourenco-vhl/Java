@@ -303,6 +303,8 @@
     - Exemplo: String
 
 ## Polismorfismo
+- Comportamentos diferentes determinados em tempo execução
+
 - **Definição formal**: Em Programação Orientada a Objetos, polimorfismo é recurso que
 permite que variáveis de um mesmo tipo mais genérico possam
 apontar para objetos de tipos específicos diferentes, tendo assim
@@ -327,6 +329,7 @@ Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account)
 - Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação
 - Se uma classe possuir pelo meno um método abstrat, então esta classe também é abstrata
 - Notação UML: itálico
+
 
 
 
