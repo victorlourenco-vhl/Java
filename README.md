@@ -330,6 +330,11 @@ Withdraw está sendo feita (ele só sabe que são duas variáveis tipo Account)
 - Se uma classe possuir pelo meno um método abstrat, então esta classe também é abstrata
 - Notação UML: itálico
 
+## Execeções
+- Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução
+- Em Java, uma exceção é um objeto herdado da classe:
+  - java.lang.Exception - o compilador obriga a tratar ou propagar 
+  - java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
 
 
 
