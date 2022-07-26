@@ -9,8 +9,10 @@
   - Interpretadas
   - Híbridas
 
-![image](https://user-images.githubusercontent.com/78964459/174917465-fdc2e254-684c-4edb-a201-f50abe397bdb.png)
-
+<p align='left'>
+<img src="https://user-images.githubusercontent.com/78964459/174917465-fdc2e254-684c-4edb-a201-f50abe397bdb.png"/>
+</p>
+  
 ## Funcionamento do Java
 
 - O Java é compilado pelo JavaC (compilador do Java), gera um bytecode que irá poder rodar em qualquer plataforma que tenha JVM (Java Virtual Machine) e rodará em qualquer plataforma.
