@@ -349,11 +349,14 @@ podem ocasionar o erro
   - Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes
   - A exceção pode carregar dados quaisquer
 
-## Estrutura try-catch
+### Estrutura try-catch
 - Bloco try
   - Contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção
 - Boloco catch
   - Contém o código a ser executado caso uma exceção ocorra
 
+### Stack Trace
+- É uma pilha de chamada de métodos
+- Quando ocorre uma exceção o stack trace vai rastrear todas as chamadas dos seus métos até chegar onde occoreu a execeção
 
 
