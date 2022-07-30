@@ -363,4 +363,8 @@ podem ocasionar o erro
 - É um bloco que contém código a ser executado independente de ter ocorrido ou não uma exceção
 - Exemplo clássico: fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamento
 
+### Organização do programa por pacotes
+![image](https://user-images.githubusercontent.com/78964459/181914891-c89ee9c8-705f-4a97-9130-db6bd2f3b259.png)
+
+
 
