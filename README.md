@@ -366,5 +366,7 @@ podem ocasionar o erro
 ### Organização do programa por pacotes
 ![image](https://user-images.githubusercontent.com/78964459/181914891-c89ee9c8-705f-4a97-9130-db6bd2f3b259.png)
 
-
+### RuntimeException e Exception
+- Exception: O compilador obriga a tratar a exceção
+- RuntimeException: O compilador não obriga a tratar
 
