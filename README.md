@@ -370,3 +370,7 @@ podem ocasionar o erro
 - Exception: O compilador obriga a tratar a exceção
 - RuntimeException: O compilador não obriga a tratar
 
+## Trabalhando com Arquivos
+- **File:** Representação abstrata de um arquivo e seu caminho
+- **Scanner:** Leitor de texto
+- **IOException** herda de (Exception)
