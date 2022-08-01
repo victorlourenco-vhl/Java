@@ -374,3 +374,8 @@ podem ocasionar o erro
 - **File:** Representação abstrata de um arquivo e seu caminho
 - **Scanner:** Leitor de texto
 - **IOException** herda de (Exception)
+
+- **FileReader** (stream de leitura de caractereres a  partir de arquivos)
+  - **Obs:** stream em programação significa sequência ou fluxo
+- **BufferedReader** É instanciado a partir do **FileReader** e implementa algumas otimizações utilizando o buffer de memória
+
