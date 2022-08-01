@@ -379,7 +379,29 @@ podem ocasionar o erro
 - **Scanner:** Leitor de texto
 - **IOException** herda de (Exception)
 
+### Leitura 
 - **FileReader** (stream de leitura de caractereres a  partir de arquivos)
   - **Obs:** stream em programação significa sequência ou fluxo
 - **BufferedReader** É instanciado a partir do **FileReader** e implementa algumas otimizações utilizando o buffer de memória
+```Java
+String path = "c:\\temp\\in.txt";
+
+try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
+  String line = br.readLine();
+
+  while (line != null) {
+    System.out.println(line);
+    line = br.readLine();
+  }
+} 
+catch (IOException e) {
+  System.out.println("Error: " + e.getMessage());
+}
+```
+
+### Escrita
+- FileWriter (stream de escrita de caracteres em arquivos)
+  - Cria/recria o arquivo: **new FileWriter(path)**
+  - Acrescenta ao arquivo existente: **new FileWriter(path, true)**
 
