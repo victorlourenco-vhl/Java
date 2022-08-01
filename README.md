@@ -404,4 +404,4 @@ catch (IOException e) {
 - FileWriter (stream de escrita de caracteres em arquivos)
   - Cria/recria o arquivo: **new FileWriter(path)**
   - Acrescenta ao arquivo existente: **new FileWriter(path, true)**
-
+- BufferedWriter (mais rápido)
