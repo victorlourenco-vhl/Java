@@ -421,7 +421,7 @@ catch (IOException e) {
 }
 ```
 ## interface
-- Interface é um tipo que define um conjunto de operações  que uma classe deve implementar
+- Interface é um tipo em Java que define um conjunto de operações que uma classe deve implementar
 - A interface estabelece um contrato que a classe deve cumprir
 
 ```Java
