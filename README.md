@@ -420,3 +420,19 @@ catch (IOException e) {
   e.printStackTrace();
 }
 ```
+## interface
+- Interface é um tipo que define um conjunto de operações  que uma classe deve implementar
+- A interface estabelece um contrato que a classe deve cumprir
+
+```Java
+interface Forma{
+  double are();
+  double perimetro();
+}
+```
+
+- Por quê interfaces?
+	- Para criar ssistemas com **baixo acoplamento** e **flexíveis**
+
+
+
