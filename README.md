@@ -420,19 +420,24 @@ catch (IOException e) {
   e.printStackTrace();
 }
 ```
-## interface
+## Interface
 - Interface é um tipo em Java que define um conjunto de operações que uma classe deve implementar
 - A interface estabelece um contrato que a classe deve cumprir
-
 ```Java
 interface Forma{
   double are();
   double perimetro();
 }
 ```
-
 - Por quê interfaces?
-	- Para criar ssistemas com **baixo acoplamento** e **flexíveis**
+  - Para criar ssistemas com **baixo acoplamento** e **flexíveis**
 
+### Inversão de controle
+- Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependências
 
+### Injeção de dependência
+- É uma forma de realizar a inversão de controle: um componente externo instancia a depenência, que é então injetada no objeto "pai". Pode ser implementada de várias formas: 	
+  - Construtor
+  - Classe de instanciação (builder / factor)
+  - Container / framework
 
