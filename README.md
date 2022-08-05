@@ -440,4 +440,13 @@ interface Forma{
   - Construtor
   - Classe de instanciação (builder / factor)
   - Container / framework
-
+  
+## Herança x Interface
+- **Semelhanças**
+  - Relação é-um
+  - Generalização/especialização
+  - Polimorfismo
+  
+- **Diferença**
+  - Herança - Reuso
+  - Interface - Contrato a ser cumprido
