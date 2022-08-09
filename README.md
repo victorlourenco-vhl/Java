@@ -461,5 +461,14 @@ interface Forma{
   - Manter a retrocompatibilidade com sistemas existentes
   - Permitir que "interfaces funcionais" (que devem conter apenas um método) possam prover outras operações padrão reutilizáveis
 
+## Generics
+- Generics permitem que classes, interfaces e métodos possam ser parametrizados por tipo. Seus benefícios são: 
+  - Reuso
+  - Type safety
+  - Performace
+
+- Uso comum:
+  - Coleções
+
 
 
